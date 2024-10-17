@@ -38,9 +38,3 @@ rpm-ostree install x11docker
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
-systemctl enable podman.service
-systemctl enable usbguard-notifier.service
-systemctl enable smb.service
-systemctl enable smb.socket
-systemctl enable docker.socket
-systemctl enable docker.service
