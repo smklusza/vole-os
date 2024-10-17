@@ -11,7 +11,6 @@ RELEASE="$(rpm -E %fedora)"
 # RPMfusion repos are available by default in ublue main images
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
-https://download.docker.com/linux/fedora/docker-ce.repo
 # this installs a package from fedora repos
 rpm-ostree install screen
 rpm-ostree install firewalld
@@ -22,10 +21,9 @@ rpm-ostree install samba
 rpm-ostree install podman
 rpm-ostree install podman-compose
 rpm-ostree install containers-common-extra
-rpm-ostree install docker-ce
-rpm-ostree install docker-ce-cli
-rpm-ostree install containerd.io
-rpm-ostree install docker-compose-plugin
+rpm-ostree install docker-cli
+rpm-ostree install containerd
+rpm-ostree install docker-compose
 rpm-ostree install numix-icon-theme-circle
 rpm-ostree install ulauncher
 rpm-ostree install plank
@@ -33,6 +31,7 @@ rpm-ostree install gtk-xfce-engine
 rpm-ostree install flat-remix-gtk2-theme
 rpm-ostree install pop-gtk2-theme
 rpm-ostree install pop-icon-theme
+rpm-ostree install x11docker
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
