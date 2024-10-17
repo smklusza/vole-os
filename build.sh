@@ -21,7 +21,6 @@ rpm-ostree install samba
 rpm-ostree install podman
 rpm-ostree install podman-compose
 rpm-ostree install containers-common-extra
-rpm-ostree install docker-cli
 rpm-ostree install containerd
 rpm-ostree install docker-compose
 rpm-ostree install numix-icon-theme-circle
