@@ -15,8 +15,8 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install screen
 rpm-ostree install firewalld
 rpm-ostree install manafirewall
-rpm-ostree install usbguard
-rpm-ostree install usbguard-notifier
+# rpm-ostree install usbguard
+# rpm-ostree install usbguard-notifier
 rpm-ostree install samba
 rpm-ostree install podman
 rpm-ostree install podman-compose
@@ -25,12 +25,12 @@ rpm-ostree install containerd
 rpm-ostree install docker-compose
 rpm-ostree install numix-icon-theme-circle
 rpm-ostree install ulauncher
-rpm-ostree install plank
-rpm-ostree install gtk-xfce-engine
-rpm-ostree install flat-remix-gtk2-theme
-rpm-ostree install pop-gtk2-theme
+# rpm-ostree install plank
+# rpm-ostree install gtk-xfce-engine
+# rpm-ostree install flat-remix-gtk2-theme
+# rpm-ostree install pop-gtk2-theme
 rpm-ostree install pop-icon-theme
-rpm-ostree install x11docker
+# rpm-ostree install x11docker
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
